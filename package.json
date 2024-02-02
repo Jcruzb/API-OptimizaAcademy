@@ -9,7 +9,8 @@
     "seeds": "node ./seeds/seeds.js",
     "users.seeds": "node ./seeds/users.seeds.js",
     "companies.seeds": "node ./seeds/companies.seeds.js",
-    "courses.seeds": "node ./seeds/courses.seeds.js"
+    "courses.seeds": "node ./seeds/courses.seeds.js",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
