@@ -9,6 +9,7 @@ router.post('/register', usersController.register);
 router.post('/login', usersController.login);
 router.get('/', usersController.list);
 router.get('/me', authMiddleware.isAuthenticated, usersController.getCurrentUser);
+router.get('/data',authMiddleware.isAuthenticated, usersController.getUserData);
 router.get('/:id', usersController.getOne);
 router.put('/:id', usersController.update);
 router.delete('/:id', usersController.delete);

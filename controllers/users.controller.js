@@ -301,3 +301,17 @@ module.exports.updateExamResults = (req, res) => {
         });
 };
 
+//get data for the list of users. This data includes username, avatar, company, and courses
+
+module.exports.getUserData = async (req, res, next) => {
+    try {
+        const users = await User.find()
+            .populate("company")
+            .select("username avatar company courses");
+        res.json(users);
+    } catch (error) {
+        console.error("Error:", error);
+        next(error);
+    }
+};
+
