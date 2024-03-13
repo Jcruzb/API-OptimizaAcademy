@@ -16,6 +16,19 @@ module.exports.getAll = (req, res, next) => {
         });
 }
 
+module.exports.getIds = (req, res, next) => {
+    //getting name and Ids
+    Company.find()
+        .select('name')
+        .then(companys => {
+            res.status(StatusCodes.OK).json(companys);
+        })
+        .catch((err) => {
+            console.log(err);
+            next(createError(StatusCodes.INTERNAL_SERVER_ERROR, "Internal server error"));
+        });
+}
+
 module.exports.create = (req, res, next) => {
     if(req.file){
         req.body.logo = req.file.path;
