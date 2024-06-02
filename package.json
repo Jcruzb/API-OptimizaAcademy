@@ -10,6 +10,7 @@
     "users.seeds": "node ./seeds/users.seeds.js",
     "companies.seeds": "node ./seeds/companies.seeds.js",
     "courses.seeds": "node ./seeds/courses.seeds.js",
+    "all.seeds": "npm run users.seeds && npm run companies.seeds && npm run courses.seeds",
     "start": "node app.js"
   },
   "repository": {
