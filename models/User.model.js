@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const bcrypt = require('bcrypt');
 const SALT_WORK_FACTOR = 10;
 const { Schema, model } = mongoose;
-const ROLES = ['Administrador SinCeO2', 'Administrador', 'Usuario'];
+const ROLES = ['Administrador Optimiza', 'Administrador', 'Usuario'];
 
 const userSchema = new Schema(
     {
