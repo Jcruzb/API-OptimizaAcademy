@@ -23,7 +23,7 @@ const courseSchema = new mongoose.Schema({
         type: mongoose.Schema.Types.ObjectId,
         ref: 'User'
     }],
-    Instructions:{
+    instructions:{
         type: String,
         trim: true
     },
