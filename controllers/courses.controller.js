@@ -62,6 +62,7 @@ module.exports.update = (req, res, next) => {
                 next(createError(StatusCodes.NOT_FOUND, "Course not found"));
             } else {
                 console.log('entrando en update');
+                console.log(course)
                 res.status(StatusCodes.OK).json(course);
             }
         })

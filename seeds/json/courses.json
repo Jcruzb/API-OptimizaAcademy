@@ -3,6 +3,7 @@
         "_id":"659427de15b4b05b063a2c36",
         "name": "ISO 50001 Sistema de Gestión de la Energía",
         "description": "Curso de Interpretación de Norma ISO 50001:2016",
+        "instructions": "<h2>Introduzcla las instrucciones del curso</h2><p> Por ejemplo: </p><p> Este curso tiene como objetivo que el estudiante conozca de manera general los conceptos básicos de la programación en Python. </p><p> Para ello, se tiene la siguiente metodología: </p><ul><li> Descripción de los temas </li><li> Ejemplos </li><li> Evaluaciones sorpresa </li></ul><p> Al finalizar el curso, el estudiante deberá presentar un examen final.</p><p> Al aprobar el examen, el estudiante podrá descargar su certificado de aprobación.</p><p> ¡Éxito en el curso!</p>",
         "students":["65ad2dadba7d6bd39c91f490","65ad2dadba7d6bd39c91f492","65ad2dadba7d6bd39c91f494", "65ad2dadba7d6bd39c91f496", "65ad1fe6cbdd4924b9630c0d","65ad1fe6cbdd4924b9630c0f", "65ad2dadba7d6bd39c91f49c","65ad2dadba7d6bd39c91f49e", "65ad2dadba7d6bd39c91f4a0", "65ad2dadba7d6bd39c91f4a2"   ],
         "mainImage": "https://res.cloudinary.com/dqyphg6sa/image/upload/v1704208350/SinCeO2/TraningApp/un81v1tj3bphbsesejwj.png",
         "content": [
@@ -295,6 +296,7 @@
         "_id":"659427de15b4b05b063a2c37",
         "name": "ISO 45001",
         "description": "Sistema de Gestión de la Seguridad y salud Ocupacional",
+        "instructions":"<h2>Introduzcla las instrucciones del curso</h2><p> Por ejemplo: </p><p> Este curso tiene como objetivo que el estudiante conozca de manera general los conceptos básicos de la programación en Python. </p><p> Para ello, se tiene la siguiente metodología: </p><ul><li> Descripción de los temas </li><li> Ejemplos </li><li> Evaluaciones sorpresa </li></ul><p> Al finalizar el curso, el estudiante deberá presentar un examen final.</p><p> Al aprobar el examen, el estudiante podrá descargar su certificado de aprobación.</p><p> ¡Éxito en el curso!</p>",
         "mainImage": "https://res.cloudinary.com/dqyphg6sa/image/upload/v1704832073/SinCeO2/TraningApp/kxdmzcbv2qbq07iqqnuw.webp",
         "content": [
           {
@@ -338,6 +340,7 @@
         "_id":"659427de15b4b05b063a2c38",
         "name": "ISO 9001:2015",
         "description": "Sistema de Gestión de la Calidad",
+        "instructions":"<h2>Introduzcla las instrucciones del curso</h2><p> Por ejemplo: </p><p> Este curso tiene como objetivo que el estudiante conozca de manera general los conceptos básicos de la programación en Python. </p><p> Para ello, se tiene la siguiente metodología: </p><ul><li> Descripción de los temas </li><li> Ejemplos </li><li> Evaluaciones sorpresa </li></ul><p> Al finalizar el curso, el estudiante deberá presentar un examen final.</p><p> Al aprobar el examen, el estudiante podrá descargar su certificado de aprobación.</p><p> ¡Éxito en el curso!</p>",
         "mainImage": "https://res.cloudinary.com/dqyphg6sa/image/upload/v1704832357/SinCeO2/TraningApp/i0scrykw8bu29f1ndgps.jpg",
         "content": [
           {
