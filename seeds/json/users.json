@@ -173,5 +173,23 @@
         "startDate": "2023-11-11T00:00:00.000Z"
       }
     ]
+  },
+  {
+    "_id": "65ad2dadba7d6bd39c91f4a4",
+    "username": "Juan Carlos Cruz",
+    "password": "juan123",
+    "email": "j.cruzb@outlook.com",
+    "role": "Administrador Optimiza",
+    "avatar": "https://avatars.githubusercontent.com/u/81054118?v=4",
+    "active": true,
+    "company": "6559489f23383c514300f14d",
+    "courses": [
+      {
+        "course": "659427de15b4b05b063a2c36",
+        "status": "pending",
+        "startDate": "2023-11-11T00:00:00.000Z"
+      }
+    ]
+
   }
 ]

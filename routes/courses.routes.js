@@ -12,6 +12,7 @@ router.get('/:id', coursesController.getOne);
 router.put('/:id', authMiddleware.isAuthenticated, upload.single('image'), coursesController.update);
 router.put('/:id/content', authMiddleware.isAuthenticated, upload.single('image'), coursesController.updateContent);
 router.put('/:id/image', authMiddleware.isAuthenticated, upload.single('image'), coursesController.updateContentImage);
+router.put('/:id/mainImage', authMiddleware.isAuthenticated, upload.single('mainImage'), coursesController.updateMainImage);
 //actualizando la lista de estudiantes
 router.put('/:id/updateStudent', authMiddleware.isAuthenticated, coursesController.updateCourseStudent);
 router.delete('/:id', authMiddleware.isAuthenticated, coursesController.delete);

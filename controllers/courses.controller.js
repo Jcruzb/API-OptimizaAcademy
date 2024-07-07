@@ -101,6 +101,31 @@ module.exports.updateContentImage = (req, res, next) => {
         });
 };
 
+module.exports.updateMainImage = (req, res, next) => {
+    const id = req.params.id;
+    const course = req.body;
+
+    if (req.file) {
+        // Actualizar el campo de imagen para que contenga la URL de Cloudinary
+        course.mainImage = req.file.path;
+    }
+
+    Course.findByIdAndUpdate(id, course, { new: true })
+        .then(course => {
+            if (!course) {
+                next(createError(StatusCodes.NOT_FOUND, "Course not found"));
+            } else {
+                console.log('entrando en update');
+                res.status(StatusCodes.OK).json(course);
+            }
+        })
+        .catch((err) => {
+            console.log(err);
+            next(createError(StatusCodes.INTERNAL_SERVER_ERROR, "Internal server error"));
+        });
+}
+
+
 
 
 module.exports.updateContent = (req, res, next) => {
