@@ -5,13 +5,13 @@ const mongoose = require('mongoose');
 const courseSchema = new mongoose.Schema({
     name: {
         type: String,
-        required: [true, 'Name is required'],
+        required: [true, 'Debe ingresar un nombre'],
         unique: true,
         trim: true
     },
     description: {
         type: String,
-        required: [true, 'Description is required'],
+        default: 'Aún no se ha ingresado una descripción',
         trim: true
     },
     mainImage: {
