@@ -71,7 +71,11 @@ const userSchema = new Schema(
                 courseProgressPercent: {
                     type: Number,
                     default: 0
-                }
+                },
+                currentPage: {
+                    type: Number,
+                    default: 0
+                },
             },
             testsResults: [{
                 courseId: {

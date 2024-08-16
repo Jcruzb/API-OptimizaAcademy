@@ -206,7 +206,8 @@ module.exports.updateCourseProgress = async (req, res, next) => {
         const progress = {
             courseLength: req.body.courseLength,
             courseProgress: req.body.courseProgress,
-            courseProgressPercent: req.body.courseProgressPercent
+            courseProgressPercent: req.body.courseProgressPercent,
+            currentPage: req.body.currentPage // Nuevo campo para la página actual
         }
 
         const user = await User.findById(id);
@@ -225,7 +226,8 @@ module.exports.updateCourseProgress = async (req, res, next) => {
         user.courses[courseIndex].progress = {
             courseLength: progress.courseLength,
             courseProgress: progress.courseProgress,
-            courseProgressPercent: progress.courseProgressPercent
+            courseProgressPercent: progress.courseProgressPercent,
+            currentPage: progress.currentPage // Actualizar la página actual
         };
 
         await user.save();
