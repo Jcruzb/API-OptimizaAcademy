@@ -42,6 +42,10 @@ const courseSchema = new mongoose.Schema({
             trim: true
         }
     }],
+    courseLength: {
+        type: Number,
+        default: 0
+    },
     tests: [{
         title: {
             type: String,
@@ -97,6 +101,11 @@ const courseSchema = new mongoose.Schema({
             return ret;
         }
     }
+});
+
+courseSchema.pre('save', function(next) {
+    this.courseLength = this.content.length + 1;
+    next();
 });
 
 const Course = mongoose.model('Course', courseSchema);

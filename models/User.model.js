@@ -3,6 +3,7 @@ const bcrypt = require('bcrypt');
 const SALT_WORK_FACTOR = 10;
 const { Schema, model } = mongoose;
 const ROLES = ['Administrador Optimiza', 'Administrador', 'Usuario'];
+const Course = require('./Course.model');
 
 const userSchema = new Schema(
     {
@@ -60,10 +61,6 @@ const userSchema = new Schema(
                 default: 'pending'
             },
             progress: {
-                courseLength: {
-                    type: Number,
-                    default: 0
-                },
                 courseProgress: {
                     type: Number,
                     default: 0
@@ -156,4 +153,3 @@ userSchema.methods.checkPassword = function (password) {
 
 const User = model('User', userSchema);
 module.exports = User;
-
