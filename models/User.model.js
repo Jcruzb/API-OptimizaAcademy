@@ -60,6 +60,10 @@ const userSchema = new Schema(
                 enum: ['enrolled', 'completed', 'pending'],
                 default: 'pending'
             },
+            isActive: {
+                type: Boolean,
+                default: false
+            },
             progress: {
                 courseProgress: {
                     type: Number,

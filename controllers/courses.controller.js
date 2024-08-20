@@ -176,41 +176,38 @@ module.exports.delete = (req, res, next) => {
 
 //update student list
 
-module.exports.updateCourseStudent = async (req, res, next) => {
-    try {
+module.exports.updateCourseStudent = (req, res, next) => {
+    console.log('Entra en updateCourseStudent')
 
-        const { studentId, courseId } = req.body;
+    const { id } = req.params; // ID del usuario
+    const { coursesId } = req.body; // ID del curso
 
-        console.log(req.body);
-        console.log(courseId);
-        console.log(studentId);
+    console.log('id', id);
+    console.log('coursesId', coursesId);
 
-        const course = await Course.findById(courseId);
+    User.findById(id)
+        .then((user) => {
+            if (!user) {
+                return next(createError(StatusCodes.NOT_FOUND, "User not found"));
+            }
 
-        if (!course) {
-            console.log("no hay curso");
-            return next(createError(StatusCodes.NOT_FOUND, 'Course not found'));
-        }
-        console.log("hay curso");
-        const currentStudents = course.students.map(String);
+            const courseIndex = user.courses.findIndex(course => course.course.toString() === coursesId);
 
-        const studentIndex = currentStudents.indexOf(studentId);
+            if (courseIndex === -1) {
+                // Si el curso no existe, agregarlo
+                user.courses.push({ course: coursesId, isActive: true });
+            } else {
+                // Si el curso ya existe, alternar el estado de isActive
+                user.courses[courseIndex].isActive = !user.courses[courseIndex].isActive;
+            }
 
-        if (studentIndex !== -1) {
-            currentStudents.splice(studentIndex, 1);
-        } else {
-            currentStudents.push(studentId);
-        }
-
-        course.students = currentStudents;
-
-        console.log(course);
-
-        await course.save();
-
-        res.status(StatusCodes.OK).json({ message: 'Course students updated successfully', course });
-    } catch (error) {
-        console.log(error);
-        next(error);
-    }
+            return user.save();
+        })
+        .then((updatedUser) => {
+            res.status(StatusCodes.OK).json(updatedUser);
+        })
+        .catch((err) => {
+            console.log(err);
+            next(createError(StatusCodes.INTERNAL_SERVER_ERROR, "Internal server error"));
+        });
 };

@@ -11,6 +11,7 @@
     "courses": [
       {
         "course": "659427de15b4b05b063a2c36",
+        "isActive": true,
         "status": "pending",
         "startDate": "2023-11-11T00:00:00.000Z"
       }
@@ -28,6 +29,7 @@
     "courses": [
       {
         "course": "659427de15b4b05b063a2c36",
+        "isActive": false,
         "status": "pending",
         "startDate": "2023-11-11T00:00:00.000Z"
       }
@@ -45,6 +47,7 @@
     "courses": [
       {
         "course": "659427de15b4b05b063a2c36",
+        "isActive": true,
         "status": "pending",
         "startDate": "2023-11-11T00:00:00.000Z"
       }
@@ -62,6 +65,7 @@
     "courses": [
       {
         "course": "659427de15b4b05b063a2c36",
+        "isActive": true,
         "status": "pending",
         "startDate": "2023-11-11T00:00:00.000Z"
       }
@@ -79,6 +83,7 @@
     "courses": [
       {
         "course": "659427de15b4b05b063a2c36",
+        "isActive": false,
         "status": "pending",
         "startDate": "2023-11-11T00:00:00.000Z"
       }
@@ -96,6 +101,7 @@
     "courses": [
       {
         "course": "659427de15b4b05b063a2c36",
+        "isActive": true,
         "status": "pending",
         "startDate": "2023-11-11T00:00:00.000Z",
         "progress": {
@@ -118,6 +124,7 @@
     "courses": [
       {
         "course": "659427de15b4b05b063a2c36",
+        "isActive": true,
         "status": "pending",
         "startDate": "2023-11-11T00:00:00.000Z"
       }
@@ -135,6 +142,7 @@
     "courses": [
       {
         "course": "659427de15b4b05b063a2c36",
+        "isActive": true,
         "status": "pending",
         "startDate": "2023-11-11T00:00:00.000Z"
       }
@@ -152,6 +160,7 @@
     "courses": [
       {
         "course": "659427de15b4b05b063a2c36",
+        "isActive": true,
         "status": "pending",
         "startDate": "2023-11-11T00:00:00.000Z"
       }
@@ -169,6 +178,7 @@
     "courses": [
       {
         "course": "659427de15b4b05b063a2c36",
+        "isActive": true,
         "status": "pending",
         "startDate": "2023-11-11T00:00:00.000Z"
       }
@@ -186,6 +196,7 @@
     "courses": [
       {
         "course": "659427de15b4b05b063a2c36",
+        "isActive": true,
         "status": "pending",
         "startDate": "2023-11-11T00:00:00.000Z"
       }

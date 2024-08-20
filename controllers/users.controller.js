@@ -200,7 +200,6 @@ module.exports.updateCourseTime = async (req, res, next) => {
 
 // updateCourseProgress
 module.exports.updateCourseProgress = async (req, res, next) => {
-    console.log('entra')
     try {
         const { courseId } = req.body;
         const { id } = req.params;
