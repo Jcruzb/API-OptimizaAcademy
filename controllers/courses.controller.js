@@ -178,6 +178,7 @@ module.exports.delete = (req, res, next) => {
 
 module.exports.updateCourseStudent = (req, res, next) => {
     console.log('Entra en updateCourseStudent')
+    console.log(req.body);
 
     const { id } = req.params; // ID del usuario
     const { coursesId } = req.body; // ID del curso

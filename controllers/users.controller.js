@@ -19,7 +19,6 @@ module.exports.register = (req, res, next) => {
 }
 
 module.exports.login = (req, res, next) => {
-    console.log('entrando en login')
     const loginError = () => next(createError(StatusCodes.UNAUTHORIZED, "Invalid email or password"));
     const { email, password } = req.body;
 
@@ -55,10 +54,15 @@ module.exports.getOne = (req, res, next) => {
         .populate("courses.course")
         .then((user) => {
             if (!user) {
-                next(createHttpError(StatusCodes.NOT_FOUND, "User not found"));
-            } else {
-                res.status(StatusCodes.OK).json(user);
+                return next(createHttpError(StatusCodes.NOT_FOUND, "User not found"));
             }
+            const activeCourses = user.courses.filter(course => course.isActive);
+            const userWithActiveCourses = {
+                ...user.toObject(),
+                courses: activeCourses,
+            };
+
+            res.status(StatusCodes.OK).json(userWithActiveCourses);
         })
         .catch(next);
 };
@@ -79,7 +83,6 @@ module.exports.update = (req, res, next) => {
     if (req.file) {
         req.body.avatar = req.file.path;
     }
-    console.log(req.body);
     User.findByIdAndUpdate(id, req.body, { new: true })
         .then(user => {
             if (!user) {
@@ -109,6 +112,7 @@ module.exports.delete = (req, res, next) => {
 
 module.exports.getCurrentUser = (req, res, next) => {
 
+
     User.findById(req.currentUser)
         .populate("company")
         .populate("courses.course")
@@ -116,7 +120,12 @@ module.exports.getCurrentUser = (req, res, next) => {
             if (!user) {
                 next(createError(StatusCodes.NOT_FOUND, "User not found"));
             } else {
-                res.json(user);
+                const activeCourses = user.courses.filter(course => course.isActive);
+                const userWithActiveCourses = {
+                    ...user.toObject(),
+                    courses: activeCourses,
+                };
+                res.json(userWithActiveCourses);
             }
         })
         .catch((error) => {
@@ -129,7 +138,6 @@ module.exports.getCurrentUser = (req, res, next) => {
 
 module.exports.updateTestResults = async (req, res, next) => {
     try {
-        console.log("req.body", req.body);
         const { id } = req.params;
         const { testsResults } = req.body;
 
@@ -179,7 +187,6 @@ module.exports.updateCourseTime = async (req, res, next) => {
 
 
         const courseIndex = user.courses.findIndex(course => course.course._id.toString() === courseId);
-        console.log(`courseIndex: ${courseIndex}`);
 
         if (courseIndex === -1) {
             return next(createError(StatusCodes.NOT_FOUND, "Course not found"));
@@ -200,6 +207,7 @@ module.exports.updateCourseTime = async (req, res, next) => {
 
 // updateCourseProgress
 module.exports.updateCourseProgress = async (req, res, next) => {
+
     try {
         const { courseId } = req.body;
         const { id } = req.params;
@@ -234,7 +242,7 @@ module.exports.updateCourseProgress = async (req, res, next) => {
         };
 
         await user.save();
-        console.log("user", user.courses[courseIndex].progress);
+
 
         res.json(user);
     } catch (error) {
@@ -255,10 +263,8 @@ module.exports.updateCourseStatus = async (req, res, next) => {
             return next(createError(StatusCodes.NOT_FOUND, "User not found"));
         }
 
-        // Filtrar cursos existentes del usuario que no están en coursesId
         const updatedCourses = user.courses.filter(course => coursesId.includes(course.course.toString()));
 
-        // Añadir nuevos cursos de coursesId al usuario
         const newCourses = coursesId
             .filter(courseId => !user.courses.some(course => course.course.toString() === courseId))
             .map(courseId => ({ course: courseId }));
@@ -276,7 +282,6 @@ module.exports.updateCourseStatus = async (req, res, next) => {
 
 module.exports.updateExamResults = (req, res) => {
     const { courseId, userId, examResults } = req.body;
-    console.log('Entraaaaaaaaaaaaaaaaaaaaaaaaaaa')
 
     User.findById(userId)
         .then(user => {
@@ -291,10 +296,6 @@ module.exports.updateExamResults = (req, res) => {
             }
 
             user.courses[courseIndex].examResults = examResults;
-
-            console.log('user.courses[courseIndex].examResults');
-
-            console.log(user)
             return user.save();
         })
         .then(updatedUser => {

@@ -7,6 +7,7 @@ const authMiddleware = require('../middlewares/auth.middleware');
 
 router.get('/', companiesController.getAll);
 router.get('/ids', companiesController.getIds);
+router.get('/idsData/:id', authMiddleware.isAuthenticated, companiesController.getCompanyIdsData);
 router.post('/create', authMiddleware.isAuthenticated, upload.single('logo'), companiesController.create);
 router.get('/:id', companiesController.getOne);
 router.put('/:id', authMiddleware.isAuthenticated, upload.single('logo'), companiesController.update);

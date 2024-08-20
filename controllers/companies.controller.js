@@ -1,3 +1,4 @@
+
 const Company = require('../models/Company.model');
 const User = require('../models/User.model');
 const createError = require("http-errors");
@@ -33,9 +34,6 @@ module.exports.create = (req, res, next) => {
     if(req.file){
         req.body.logo = req.file.path;
     }
-    
-    console.log(req.file);
-
     const company = new Company(req.body);
     company.save()
         .then(company => {
@@ -99,3 +97,45 @@ module.exports.delete = (req, res, next) => {
             next(createError(StatusCodes.INTERNAL_SERVER_ERROR, "Internal server error"));
         });
 }
+
+//controlador para obtener la el nombre de la compañía, el id, el id de los usuarios y el id de los cursos
+
+
+module.exports.getCompanyIdsData = (req, res, next) => {
+    Company.findById(req.params.id)
+        .select('name users courses')
+        .populate({
+            path: 'users',
+            select: '_id username email'
+        })
+        .populate({
+            path: 'courses',
+            select: '_id name description'
+        })
+        .then(company => {
+            if (!company) {
+                return next(createError(StatusCodes.NOT_FOUND, "Company not found"));
+            }
+
+            // Formatear los datos para cumplir con los requerimientos del frontend
+            const formattedCompany = {
+                name: company.name,
+                users: company.users.map(user => ({
+                    id: user._id,
+                    username: user.username,
+                    email: user.email,
+                })),
+                courses: company.courses.map(course => ({
+                    id: course._id,
+                    name: course.name,
+                    description: course.description,
+                }))
+            };
+
+            res.status(StatusCodes.OK).json(formattedCompany);
+        })
+        .catch((err) => {
+            console.error(err);
+            next(createError(StatusCodes.INTERNAL_SERVER_ERROR, "Internal server error"));
+        });
+};
