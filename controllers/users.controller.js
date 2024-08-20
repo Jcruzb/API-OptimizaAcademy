@@ -3,6 +3,7 @@ const User = require('../models/User.model');
 const { StatusCodes } = require('http-status-codes');
 const createError = require("http-errors");
 const jwt = require("jsonwebtoken");
+const Course = require('../models/Course.model');
 
 module.exports.register = (req, res, next) => {
     if (req.file) {
@@ -197,18 +198,13 @@ module.exports.updateCourseTime = async (req, res, next) => {
 };
 
 
-//updateCourseProgress
+// updateCourseProgress
 module.exports.updateCourseProgress = async (req, res, next) => {
-    console.log(req.body)
+    console.log('entra')
     try {
         const { courseId } = req.body;
         const { id } = req.params;
-        const progress = {
-            courseLength: req.body.courseLength,
-            courseProgress: req.body.courseProgress,
-            courseProgressPercent: req.body.courseProgressPercent,
-            currentPage: req.body.currentPage // Nuevo campo para la página actual
-        }
+        const { currentPage } = req.body;
 
         const user = await User.findById(id);
 
@@ -222,12 +218,20 @@ module.exports.updateCourseProgress = async (req, res, next) => {
             return next(createError(StatusCodes.NOT_FOUND, "Course not found"));
         }
 
+        const course = await Course.findById(courseId);
+
+        if (!course) {
+            return next(createError(StatusCodes.NOT_FOUND, "Course not found"));
+        }
+
+        const courseLength = course.courseLength; // Longitud del curso obtenida del modelo del curso
+        const courseProgressPercent = (currentPage / courseLength) * 100;
+
         // Actualizar el campo progress en el array courses
         user.courses[courseIndex].progress = {
-            courseLength: progress.courseLength,
-            courseProgress: progress.courseProgress,
-            courseProgressPercent: progress.courseProgressPercent,
-            currentPage: progress.currentPage // Actualizar la página actual
+            courseProgress: currentPage,
+            courseProgressPercent,
+            currentPage, // Actualizar la página actual
         };
 
         await user.save();
