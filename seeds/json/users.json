@@ -201,6 +201,23 @@
         "startDate": "2023-11-11T00:00:00.000Z"
       }
     ]
-
+  },
+  {
+    "_id": "65ad2dadba7d6bd39c91f4a5",
+    "username": "Blanca Eugenia, Pariona Isidro",
+    "password": "Blanqui123",
+    "email": "bpariona.isidro@gmail.com",
+    "role": "Administrador Optimiza",
+    "avatar": "https://media.licdn.com/dms/image/v2/D4D03AQHwaKSeVH33TA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1676560672725?e=1729728000&v=beta&t=vaGY8id8mCsbqsVaKn9pss9Pu9PC8aDVbvhp5V_-rk4",
+    "active": true,
+    "company": "6559489f23383c514300f14d",
+    "courses": [
+      {
+        "course": "659427de15b4b05b063a2c36",
+        "isActive": true,
+        "status": "pending",
+        "startDate": "2023-11-11T00:00:00.000Z"
+      }
+    ]
   }
 ]
