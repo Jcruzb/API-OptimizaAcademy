@@ -381,210 +381,170 @@
           "options": [
             {
               "option": "Evaluar los riesgos",
-              "isCorrect": false,
-              "_id": "66c38e2c39aee41d51f1fb48"
+              "isCorrect": false  
             },
             {
               "option": "Identificar los peligros",
-              "isCorrect": true,
-              "_id": "66c38e2c39aee41d51f1fb49"
+              "isCorrect": true  
             },
             {
               "option": "Implementar controles",
-              "isCorrect": false,
-              "_id": "66c38e2c39aee41d51f1fb4a"
+              "isCorrect": false  
             }
-          ],
-          "_id": "66c38e2c39aee41d51f1fb47"
+          ]
         },
         {
           "question": "¿Qué es un peligro?",
           "options": [
             {
               "option": "Cualquier situación o cosa con el potencial de causar daño",
-              "isCorrect": true,
-              "_id": "66c38e2c39aee41d51f1fb4c"
+              "isCorrect": true  
             },
             {
               "option": "La probabilidad de que ocurra un evento adverso",
-              "isCorrect": false,
-              "_id": "66c38e2c39aee41d51f1fb4d"
+              "isCorrect": false  
             },
             {
               "option": "Una medida preventiva para evitar accidentes",
-              "isCorrect": false,
-              "_id": "66c38e2c39aee41d51f1fb4e"
+              "isCorrect": false  
             }
-          ],
-          "_id": "66c38e2c39aee41d51f1fb4b"
+          ]
         },
         {
           "question": "¿Cuál de las siguientes NO es una categoría de peligros?",
           "options": [
             {
               "option": "Físicos",
-              "isCorrect": false,
-              "_id": "66c38e2c39aee41d51f1fb50"
+              "isCorrect": false  
             },
             {
               "option": "Psicológicos",
-              "isCorrect": true,
-              "_id": "66c38e2c39aee41d51f1fb51"
+              "isCorrect": true  
             },
             {
               "option": "Disergonómicos",
-              "isCorrect": false,
-              "_id": "66c38e2c39aee41d51f1fb52"
+              "isCorrect": false  
             }
-          ],
-          "_id": "66c38e2c39aee41d51f1fb4f"
+          ]
         },
         {
           "question": "¿Qué determina la severidad en la valoración del riesgo?",
           "options": [
             {
               "option": "La cantidad de personas expuestas al peligro",
-              "isCorrect": false,
-              "_id": "66c38e2c39aee41d51f1fb54"
+              "isCorrect": false  
             },
             {
               "option": "La gravedad del daño que podría ocurrir",
-              "isCorrect": true,
-              "_id": "66c38e2c39aee41d51f1fb55"
+              "isCorrect": true  
             },
             {
               "option": "La frecuencia con la que ocurre el evento",
-              "isCorrect": false,
-              "_id": "66c38e2c39aee41d51f1fb56"
+              "isCorrect": false  
             }
-          ],
-          "_id": "66c38e2c39aee41d51f1fb53"
+          ]
         },
         {
           "question": "¿Cuál es el control más efectivo según la jerarquía de controles?",
           "options": [
             {
               "option": "Sustitución",
-              "isCorrect": false,
-              "_id": "66c38e2c39aee41d51f1fb58"
+              "isCorrect": false  
             },
             {
               "option": "Controles de Ingeniería",
-              "isCorrect": false,
-              "_id": "66c38e2c39aee41d51f1fb59"
+              "isCorrect": false  
             },
             {
               "option": "Eliminación del peligro",
-              "isCorrect": true,
-              "_id": "66c38e2c39aee41d51f1fb5a"
+              "isCorrect": true  
             }
-          ],
-          "_id": "66c38e2c39aee41d51f1fb57"
+          ]
         },
         {
           "question": "¿Qué tipo de Peligro se asocia con la exposición prolongada al ruido?",
           "options": [
             {
               "option": "Biológico",
-              "isCorrect": false,
-              "_id": "66c38e2c39aee41d51f1fb5c"
+              "isCorrect": false  
             },
             {
               "option": "Psicosocial",
-              "isCorrect": false,
-              "_id": "66c38e2c39aee41d51f1fb5d"
+              "isCorrect": false  
             },
             {
               "option": "Físico",
-              "isCorrect": true,
-              "_id": "66c38e2c39aee41d51f1fb5e"
+              "isCorrect": true  
             }
-          ],
-          "_id": "66c38e2c39aee41d51f1fb5b"
+          ]
         },
         {
           "question": "Considerando el caso de un trabajador que experimenta estrés debido a una alta carga de trabajo, ¿de qué tipo de peligro estaríamos hablando?",
           "options": [
             {
               "option": "Físico",
-              "isCorrect": false,
-              "_id": "66c38e2c39aee41d51f1fb60"
+              "isCorrect": false  
             },
             {
               "option": "Psicosocial",
-              "isCorrect": true,
-              "_id": "66c38e2c39aee41d51f1fb61"
+              "isCorrect": true  
             },
             {
               "option": "Disergonómico",
-              "isCorrect": false,
-              "_id": "66c38e2c39aee41d51f1fb62"
+              "isCorrect": false  
             }
-          ],
-          "_id": "66c38e2c39aee41d51f1fb5f"
+          ]
         },
         {
           "question": "¿Qué tipo de control sería ajustar la altura de una silla para mejorar la postura de un trabajador?",
           "options": [
             {
               "option": "Control de Ingeniería",
-              "isCorrect": true,
-              "_id": "66c38e2c39aee41d51f1fb64"
+              "isCorrect": true  
             },
             {
               "option": "Control Administrativo",
-              "isCorrect": false,
-              "_id": "66c38e2c39aee41d51f1fb65"
+              "isCorrect": false  
             },
             {
               "option": "Eliminación",
-              "isCorrect": false,
-              "_id": "66c38e2c39aee41d51f1fb66"
+              "isCorrect": false  
             }
-          ],
-          "_id": "66c38e2c39aee41d51f1fb63"
+          ]
         },
         {
           "question": "¿Cuál es el objetivo principal de la evaluación de riesgos?",
           "options": [
             {
               "option": "Determinar si es necesario implementar controles",
-              "isCorrect": true,
-              "_id": "66c38e2c39aee41d51f1fb68"
+              "isCorrect": true  
             },
             {
               "option": "Identificar cuántos trabajadores están en riesgo",
-              "isCorrect": false,
-              "_id": "66c38e2c39aee41d51f1fb69"
+              "isCorrect": false  
             },
             {
               "option": "Calcular el costo de las medidas preventivas",
-              "isCorrect": false,
-              "_id": "66c38e2c39aee41d51f1fb6a"
+              "isCorrect": false  
             }
-          ],
-          "_id": "66c38e2c39aee41d51f1fb67"
+          ]
         },
         {
           "question": "¿Qué medida de control debe implementarse si no es posible eliminar un peligro, acorde a la jerarquía de controles?",
           "options": [
             {
               "option": "Equipos de Protección Personal",
-              "isCorrect": false,
-              "_id": "66c38e2c39aee41d51f1fb6c"
+              "isCorrect": false  
             },
             {
               "option": "Sustitución",
-              "isCorrect": true,
-              "_id": "66c38e2c39aee41d51f1fb6d"
+              "isCorrect": true  
             },
             {
               "option": "Monitoreo del ambiente",
-              "isCorrect": false,
-              "_id": "66c38e2c39aee41d51f1fb6e"
+              "isCorrect": false  
             }
-          ],
-          "_id": "66c38e2c39aee41d51f1fb6b"
+          ]
         }
       ]
     },
@@ -592,152 +552,127 @@
       {
         "title": "SECCIÓN I: GENERALIDADES",
         "description": "<p>En esta secci&oacute;n se dar&aacute;n a conocer los objetivos, normativa base y definiciones importantes para la comprensi&oacute;n del curso.</p>",
-        "image": "",
-        "_id": "66c361d039aee41d51f1484a"
+        "image": ""
       },
       {
         "title": "OBJETIVOS DEL CURSO",
         "description": "<p style=\"text-align: justify;\"><strong><span style=\"color: rgb(0, 0, 0);\">Objetivo general</span></strong></p>\n<ul style=\"text-align: justify;\">\n<li>Promover el cumplimiento normativo en materia de seguridad y salud en el trabajo.</li>\n</ul>\n<p style=\"text-align: justify;\"><strong>Objetivos espec&iacute;ficos</strong></p>\n<ul>\n<li style=\"text-align: justify;\">Unificar elementos b&aacute;sicos y necesarios para identificar peligros y evaluar los riesgos.&nbsp;</li>\n<li style=\"text-align: justify;\">Difundir pautas b&aacute;sicas para identificar peligros, evaluar riesgos y determinar medidas de control.</li>\n<li style=\"text-align: justify;\">Facilitar la gesti&oacute;n de riesgos laborales e implementaci&oacute;n del Sistema de Gesti&oacute;n de Seguridad y Salud en el Trabajo.</li>\n</ul>",
-        "image": "https://res.cloudinary.com/dqyphg6sa/image/upload/v1723050533/SinCeO2/TraningApp/lncatntm7wimw3aulku6.jpg",
-        "_id": "66b3a94c39aee41d51f0ce5f"
+        "image": "https://res.cloudinary.com/dqyphg6sa/image/upload/v1723050533/SinCeO2/TraningApp/lncatntm7wimw3aulku6.jpg"
       },
       {
         "title": "BASE LEGAL",
         "description": "<div>\n<ul>\n<li style=\"text-align: justify;\"><strong>Ley N&deg; 29783: </strong>Ley de Seguridad y Salud en el Trabajo.</li>\n<li style=\"text-align: justify;\"><strong>Decreto Supremo N.&deg; 005-2012-TR: </strong>Reglamento de la Ley de Seguridad y Salud en el Trabajo.</li>\n<li style=\"text-align: justify;\"><strong>Resoluci&oacute;n Ministerial N.&deg; 050-2013-TR: </strong>Formatos referenciales para registros del SGSST.</li>\n<li style=\"text-align: justify;\"><strong>Resoluci&oacute;n Ministerial N.&deg; 375-2008-TR: </strong>Normas B&aacute;sicas de Ergonom&iacute;a.</li>\n<li style=\"text-align: justify;\"><strong>Resoluci&oacute;n Ministerial N.&deg; 374-2008-TR: </strong>Listado de agentes de riesgo para la salud.</li>\n<li style=\"text-align: justify;\"><strong>ISO 45001:2018: </strong>Sistemas de gesti&oacute;n de la seguridad y salud en el trabajo.</li>\n<li style=\"text-align: justify;\"><strong>ISO 31000:2018:</strong> Gesti&oacute;n del Riesgo.</li>\n</ul>\n</div>",
-        "image": "https://res.cloudinary.com/dqyphg6sa/image/upload/v1723051562/SinCeO2/TraningApp/devyoq0o2stdgbvjdmj2.avif",
-        "_id": "66b3ad8339aee41d51f0d3b0"
+        "image": "https://res.cloudinary.com/dqyphg6sa/image/upload/v1723051562/SinCeO2/TraningApp/devyoq0o2stdgbvjdmj2.avif"
       },
       {
         "title": "DEFINICIONES IMPORTANTES",
         "description": "<h1 style=\"text-align: justify;\">PELIGRO</h1>\n<ul style=\"text-align: justify;\">\n<li><strong>Seg&uacute;n el DS 005-2012-TR / DS 024-2016-TR:</strong> Situación ocaracter&iacute;stica intr&iacute;nseca de algo capaz de ocasionar da&ntilde;os a las personas, equipos, procesos y ambiente.</li>\n<li><strong>De acuerdo a la ISO 45001:2018: </strong>Fuente con potencial para causar lesiones y deterioro a la salud.</li>\n</ul>\n<h1 style=\"text-align: justify;\"><strong>RIESGO</strong></h1>\n<ul style=\"text-align: justify;\">\n<li><strong>DS 005-2014-TR / DS 024-2016-TR:</strong> Probabilidad de que un peligro se materialice en determinadas &nbsp;condiciones y genere da&ntilde;os a las personas, equipos y al ambiente.</li>\n<li><strong>ISO 45001:2018 - Riesgo para la SST: </strong>Combinaci&oacute;n de la probabilidad de que ocurran eventos o exposiciones peligrosas relacionadas con el trabajo y la severidad de lalesi&oacute;n y deterioro de la salud &nbsp;que pueden causar los eventoso exposiciones</li>\n<li><strong>ISO 45001:2018 - Lesi&oacute;n y deterioro de la salud:</strong> Efecto adverso en la condici&oacute;n f&iacute;sica mental y cognitiva de una persona.</li>\n</ul>\n<p style=\"text-align: justify;\">&nbsp;</p>",
-        "image": "https://res.cloudinary.com/dqyphg6sa/image/upload/v1724087207/SinCeO2/TraningApp/wc4j3xse1jnmna6qqgxs.webp",
-        "_id": "66b3b0b339aee41d51f0d5b9"
+        "image": "https://res.cloudinary.com/dqyphg6sa/image/upload/v1724087207/SinCeO2/TraningApp/wc4j3xse1jnmna6qqgxs.webp"
       },
       {
         "title": "TIPOS DE PELIGROS",
         "description": "<p>Los podemos clasificar en:</p>\n<ul>\n<li>F&iacute;sicos</li>\n<li>Qu&iacute;micos</li>\n<li>Biol&oacute;gicos</li>\n<li>Psicosociales</li>\n<li>Disergon&oacute;micos</li>\n</ul>\n<p>&nbsp;</p>",
-        "image": "https://res.cloudinary.com/dqyphg6sa/image/upload/v1723545120/SinCeO2/TraningApp/ogynbtaac81rgmwanz0t.avif",
-        "_id": "66b3b1ed39aee41d51f0d82b"
+        "image": "https://res.cloudinary.com/dqyphg6sa/image/upload/v1723545120/SinCeO2/TraningApp/ogynbtaac81rgmwanz0t.avif"
       },
       {
         "title": "PELIGROS FÍSICOS",
         "description": "<p>Los peligros f&iacute;sicos son aquellos factores ambientales que pueden causar da&ntilde;o o enfermedades a los trabajadores.</p>\n<p><strong>Ejemplos comunes:</strong></p>\n<ul>\n<li><strong>Ruido:</strong> Exposici&oacute;n a niveles de ruido elevados que pueden causar p&eacute;rdida de audici&oacute;n.</li>\n<li><strong>Vibraciones: </strong>Vibraciones transmitidas al cuerpo, que pueden afectar la salud &oacute;sea y muscular.</li>\n<li><strong>Temperaturas Extremas: </strong>Exposici&oacute;n a calor o fr&iacute;o extremos que pueden provocar golpes de calor o hipotermia.</li>\n<li><strong>Radiaciones:&nbsp;</strong>Radiaciones ionizantes (como rayos X) y no ionizantes (como ultravioleta), que pueden causar efectos a largo plazo en la salud.</li>\n</ul>\n<p><strong>Medidas de control: </strong></p>\n<ul>\n<li>Uso de equipo de protecci&oacute;n personal (EPP) adecuado (tapones para los o&iacute;dos, ropa t&eacute;rmica).</li>\n<li>Implementaci&oacute;n de barreras f&iacute;sicas y controles de ingenier&iacute;a.</li>\n<li>Monitoreo constante y evaluaciones peri&oacute;dicas del ambiente laboral.</li>\n</ul>\n<p>&nbsp;</p>\n<p>&nbsp;</p>",
-        "image": "https://res.cloudinary.com/dqyphg6sa/image/upload/v1723546218/SinCeO2/TraningApp/xee4ynrjc3lwhunnhrlk.avif",
-        "_id": "66bb375039aee41d51f0dfa1"
+        "image": "https://res.cloudinary.com/dqyphg6sa/image/upload/v1723546218/SinCeO2/TraningApp/xee4ynrjc3lwhunnhrlk.avif"
       },
       {
         "title": "PELIGROS QUÍMICOS",
         "description": "<p>Los peligros qu&iacute;micos se refieren a sustancias que, por sus propiedades qu&iacute;micas, pueden causar da&ntilde;os a la salud.</p>\n<p><strong>Ejemplos comunes:</strong></p>\n<ul>\n<li><strong>Gases y Vapores:</strong> Gases t&oacute;xicos como mon&oacute;xido de carbono y vapores de solventes.</li>\n<li><strong>Polvos y Fibras: </strong>Polvo de s&iacute;lice y fibras de asbesto.</li>\n<li><strong>L&iacute;quidos y S&oacute;lidos Qu&iacute;micos:</strong> &Aacute;cidos, bases y otros reactivos qu&iacute;micos.</li>\n<li><strong>Fumos:</strong> Part&iacute;culas s&oacute;lidas suspendidas en el aire producidas por la combusti&oacute;n o procesos industriales.</li>\n</ul>\n<p><strong>Medidas de control:&nbsp;</strong></p>\n<ul>\n<li>Uso de ventilaci&oacute;n adecuada y sistemas de extracci&oacute;n local.</li>\n<li>Provisi&oacute;n de EPP como mascarillas y guantes resistentes a productos qu&iacute;micos.</li>\n<li>Capacitaci&oacute;n en el manejo seguro de sustancias qu&iacute;micas y almacenamiento adecuado.&nbsp;</li>\n</ul>",
-        "image": "https://res.cloudinary.com/dqyphg6sa/image/upload/v1723546713/SinCeO2/TraningApp/hzbhf01amdwqxacll4or.avif",
-        "_id": "66bb3c3939aee41d51f0e4f5"
+        "image": "https://res.cloudinary.com/dqyphg6sa/image/upload/v1723546713/SinCeO2/TraningApp/hzbhf01amdwqxacll4or.avif"
       },
       {
         "title": "PELIGROS BIOLÓGICOS",
         "description": "<p>Los peligros biol&oacute;gicos son aquellos organismos o derivados de organismos que pueden causar enfermedades infecciosas.</p>\n<div><strong>Ejemplos comunes:</strong></div>\n<ul>\n<li><strong>Bacterias: </strong>como la tuberculosis.</li>\n<li><strong>Virus: </strong>como el VIH o el SARS-CoV-2.</li>\n<li><strong>Hongos: </strong>como los causantes de micosis.</li>\n<li><strong>Par&aacute;sitos: </strong>como los que causan malaria.</li>\n<li><strong>Fluidos corporales: </strong>sangre y otros fluidos que pueden ser portadores de pat&oacute;genos.</li>\n</ul>\n<p><strong>Medidas de control:</strong></p>\n<ul>\n<li>Implementaci&oacute;n de protocolos de bioseguridad y pr&aacute;cticas de higiene.</li>\n<li>Uso de EPP como guantes, batas, mascarillas y protecci&oacute;n ocular.</li>\n<li>Vacunaci&oacute;n y programas de salud ocupacional.&nbsp;</li>\n</ul>",
-        "image": "https://res.cloudinary.com/dqyphg6sa/image/upload/v1723546850/SinCeO2/TraningApp/e9wgkugfkfgpxiswniqf.jpg",
-        "_id": "66bb3c3939aee41d51f0e4f6"
+        "image": "https://res.cloudinary.com/dqyphg6sa/image/upload/v1723546850/SinCeO2/TraningApp/e9wgkugfkfgpxiswniqf.jpg"
       },
       {
         "title": "PELIGROS PSICOSOCIALES",
         "description": "<p>Los peligros psicosociales son aquellos factores que pueden afectar la salud mental y emocional de los trabajadores.</p>\n<p><strong>Ejemplos comunes:</strong></p>\n<ul>\n<li class=\"O1\"><strong>Estr&eacute;s laboral:</strong> exceso de carga de trabajo y plazos ajustados.</li>\n<li class=\"O1\"><strong>Acoso laboral (Mobbing):</strong> conductas de hostigamiento por parte de compa&ntilde;eros o superiores.</li>\n<li class=\"O1\"><strong>Turnos de trabajo irregulares: </strong>trabajo nocturno o rotativo que afecta el ritmo circadiano.</li>\n<li class=\"O1\"><strong>Condiciones de trabajo inseguras:</strong> incertidumbre laboral o falta de control sobre el trabajo.</li>\n</ul>\n<p><strong>Medidas de control:</strong></p>\n<ul>\n<li class=\"O1\">Promoci&oacute;n de un ambiente de trabajo saludable y apoyo psicol&oacute;gico.</li>\n<li class=\"O1\">Implementaci&oacute;n de pol&iacute;ticas de prevenci&oacute;n de acoso y programas de bienestar.</li>\n<li class=\"O1\">Dise&ntilde;o de jornadas laborales que respeten los ritmos biol&oacute;gicos y necesidades del trabajador.&nbsp;</li>\n</ul>",
-        "image": "https://res.cloudinary.com/dqyphg6sa/image/upload/v1723547116/SinCeO2/TraningApp/dkza5rf5dfae5obmayms.jpg",
-        "_id": "66bb3c3939aee41d51f0e4f7"
+        "image": "https://res.cloudinary.com/dqyphg6sa/image/upload/v1723547116/SinCeO2/TraningApp/dkza5rf5dfae5obmayms.jpg"
       },
       {
         "title": "PELIGROS DISERGONÓMICOS",
         "description": "<p style=\"text-align: justify;\">Los peligros disergon&oacute;micos est&aacute;n relacionados con las condiciones de trabajo que pueden causar trastornos musculoesquel&eacute;ticos.</p>\n<p style=\"text-align: justify;\"><strong>Ejemplos comunes:</strong></p>\n<ul style=\"text-align: justify;\">\n<li class=\"O1\">Posturas Forzadas: Trabajo en posiciones inc&oacute;modas o inadecuadas.</li>\n<li class=\"O1\">Movimientos Repetitivos: Tareas que implican la repetici&oacute;n continua de movimientos.</li>\n<li class=\"O1\">Manipulaci&oacute;n Manual de Cargas: Levantamiento, empuje o transporte de cargas pesadas.</li>\n<li class=\"O1\">Dise&ntilde;o Inadecuado de Puestos de Trabajo: Mobiliario o herramientas que no se ajustan a las necesidades del trabajador.</li>\n</ul>\n<p style=\"text-align: justify;\"><strong>Medidas de control:</strong></p>\n<ul>\n<li class=\"O1\" style=\"text-align: justify;\">Redise&ntilde;o ergon&oacute;mico de los puestos de trabajo.</li>\n<li class=\"O1\" style=\"text-align: justify;\">Capacitaci&oacute;n en t&eacute;cnicas adecuadas de levantamiento y manejo de cargas.</li>\n<li class=\"O1\" style=\"text-align: justify;\">Uso de ayudas mec&aacute;nicas y herramientas adecuadas para reducir la carga f&iacute;sica.&nbsp;</li>\n</ul>",
-        "image": "https://res.cloudinary.com/dqyphg6sa/image/upload/v1723547322/SinCeO2/TraningApp/yhi0nk64qfldfhz67vff.jpg",
-        "_id": "66bb3de439aee41d51f0f037"
+        "image": "https://res.cloudinary.com/dqyphg6sa/image/upload/v1723547322/SinCeO2/TraningApp/yhi0nk64qfldfhz67vff.jpg"
       },
       {
         "title": "EJEMPLO 1",
         "description": "",
-        "image": "https://res.cloudinary.com/dqyphg6sa/image/upload/v1724090908/SinCeO2/TraningApp/x3iggvdcuc2xm1v6v9x5.jpg",
-        "_id": "66bb3eb339aee41d51f0f7d4"
+        "image": "https://res.cloudinary.com/dqyphg6sa/image/upload/v1724090908/SinCeO2/TraningApp/x3iggvdcuc2xm1v6v9x5.jpg"
       },
       {
         "title": "EJEMPLO 2",
         "description": "<p>Peligro: camioneta&nbsp;</p>\n<p>Riesgo: aplastamiento</p>\n<p>&nbsp;</p>",
-        "image": "https://res.cloudinary.com/dqyphg6sa/image/upload/v1723547572/SinCeO2/TraningApp/vduf9er5iyvttsyigppe.jpg",
-        "_id": "66bb3f3c39aee41d51f0fcc0"
+        "image": "https://res.cloudinary.com/dqyphg6sa/image/upload/v1723547572/SinCeO2/TraningApp/vduf9er5iyvttsyigppe.jpg"
       },
       {
         "title": "EJEMPLO 3",
         "description": "<p>Peligro: escoba</p>\n<p>Riesgo: ca&iacute;da</p>",
-        "image": "https://res.cloudinary.com/dqyphg6sa/image/upload/v1723547840/SinCeO2/TraningApp/n1ly1x37rxcbinyzs5h6.jpg",
-        "_id": "66bb3f3c39aee41d51f0fcc1"
+        "image": "https://res.cloudinary.com/dqyphg6sa/image/upload/v1723547840/SinCeO2/TraningApp/n1ly1x37rxcbinyzs5h6.jpg"
       },
       {
         "title": "SECCIÓN II: IDENTIFICACIÓN DE PELIGROS",
         "description": "<p>Para identificar los peligros dentro de nuestra organizaci&oacute;n, primero debemos conocer conceptos clave que nos ayudar&aacute;n con ello.</p>",
-        "image": "",
-        "_id": "66c3626c39aee41d51f14aa6"
+        "image": ""
       },
       {
         "title": "PROCESO",
         "description": "<p><strong>Proceso: </strong>ISO 45001:2018: Conjunto de actividades Interelacionadas que combierten las entradas ensalidas.</p>\n<p><strong>Actividad: </strong>Conjunto de Tareas.&nbsp;Operaciones industriales o de servicios desempe&ntilde;adas por el empleador.</p>\n<p>La siguiente imagen representa c&oacute;mo se compone un PROCESO:</p>",
-        "image": "https://res.cloudinary.com/dqyphg6sa/image/upload/v1724079927/SinCeO2/TraningApp/fmmgmox96oiz7f4lpgnq.jpg",
-        "_id": "66bb46ec39aee41d51f10c68"
+        "image": "https://res.cloudinary.com/dqyphg6sa/image/upload/v1724079927/SinCeO2/TraningApp/fmmgmox96oiz7f4lpgnq.jpg"
       },
       {
         "title": "Ejemplo de Proceso",
         "description": "<p>El \"trabajo de oficina\" es un proceso que se compone de actividades y estas, a su vez, por tareas.&nbsp;</p>\n<ol>\n<li>Actividad 1: Ingreso a la oficina</li>\n<li>Actividad 2: Encendido de PC</li>\n<li>Actividad 3: Uso de impresora</li>\n</ol>\n<p>Ver imagen para mejor comprensi&oacute;n del ejemplo:</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>",
-        "image": "https://res.cloudinary.com/dqyphg6sa/image/upload/v1724080426/SinCeO2/TraningApp/bkobi0hcngar6emqpbzx.jpg",
-        "_id": "66c0e65d39aee41d51f10e12"
+        "image": "https://res.cloudinary.com/dqyphg6sa/image/upload/v1724080426/SinCeO2/TraningApp/bkobi0hcngar6emqpbzx.jpg"
       },
       {
         "title": "Seguimos con el ejemplo de Proceso",
         "description": "<p style=\"text-align: justify;\">Vamos a identificar el peligro con el ejemplo anterior:</p>\n<h1 style=\"text-align: justify;\"><strong>Proceso:&nbsp;</strong>Trabajo de oficina</h1>\n<h2 style=\"text-align: justify;\"><strong>Actividad: Ingreso a la oficina</strong></h2>\n<h3 style=\"text-align: justify;\">Tarea 1: Apertura de la puerta de la oficina</h3>\n<div style=\"text-align: justify;\">\n<ul>\n<li>Peligro 1: Puerta en mal estado</li>\n<li>Riesgo: lesiones en los dedos o manos.</li>\n<li>Descripci&oacute;n: posibilidad de cortarse con partes afiladas del marco de la puerta o de sufrir atrapamientos en la puerta.</li>\n</ul>\n</div>\n<div class=\"O1\" style=\"text-align: justify;\">&nbsp;</div>\n<div class=\"O1\" style=\"text-align: justify;\">\n<h3>Tarea 2: Registro de asistencia o marcado de entrada</h3>\n</div>\n<div class=\"O1\">\n<div style=\"text-align: justify;\">\n<ul>\n<li>Peligro 2: Instrumento/equipo para marcar la entrada</li>\n<li>Riesgo: contagio de enfermedades virales o a causa de bacterias.</li>\n<li>Descripci&oacute;n: el uso compartido de dispositivos biom&eacute;tricos (huella digital, teclado) puede ser una fuente de contagio.</li>\n</ul>\n</div>\n<div class=\"O1\" style=\"text-align: justify;\">&nbsp;</div>\n</div>",
-        "image": "https://res.cloudinary.com/dqyphg6sa/image/upload/v1724087082/SinCeO2/TraningApp/kykvj9ynkbfesxbzrhmm.avif",
-        "_id": "66c0e6fc39aee41d51f10f85"
+        "image": "https://res.cloudinary.com/dqyphg6sa/image/upload/v1724087082/SinCeO2/TraningApp/kykvj9ynkbfesxbzrhmm.avif"
       },
       {
         "title": "SECCIÓN III: VALORACIÓN DEL RIESGO",
         "description": "<p>La valoraci&oacute;n del riesgo es una etapa fundamental en el proceso de Identificaci&oacute;n de Peligros, Evaluaci&oacute;n de Riesgos y Determinaci&oacute;n de Controles (IPERC). Este proceso permite priorizar los riesgos y tomar decisiones sobre las medidas de control necesarias para mitigarlos. Para realizar esta valoraci&oacute;n, se consideran dos factores principales: <strong>Severidad</strong> <strong>(S)</strong> y&nbsp;<strong>Frecuencia (F)</strong>.</p>\n<h4>&nbsp;</h4>",
-        "image": "undefined",
-        "_id": "66c0ee5739aee41d51f11ff6"
+        "image": "undefined"
       },
       {
         "title": "SEVERIDAD (S)",
         "description": "<p>La severidad se refiere a la <strong>gravedad del da&ntilde;o</strong> que podr&iacute;a causar un peligro si se materializa en un incidente. Es una medida del impacto potencial en la salud, la seguridad, los bienes, o el medio ambiente.</p>\n<p>Entender la severidad ayuda a priorizar los riesgos que requieren atenci&oacute;n inmediata y recursos adicionales para mitigar sus efectos.</p>\n<p>Por lo general, se utilizan <span style=\"color: rgb(0, 0, 0);\">categor&iacute;as</span> para calificar la severidad, que van desde <strong>p&eacute;rdida menor </strong>(lesiones leves) hasta da&ntilde;o <strong>catastr&oacute;fico</strong> (varias fatalidades o varias personas con lesiones permanentes).</p>\n<p>Asimismo, la severidad se eval&uacute;a considerando la <span style=\"color: rgb(0, 0, 0);\">naturaleza del da&ntilde;o</span> que podr&iacute;a ocurrir, que puede incluir da&ntilde;os f&iacute;sicos <strong>(lesi&oacute;n personal</strong>), da&ntilde;o a la <strong>propiedad </strong>y/o da&ntilde;o al <strong>proceso.</strong></p>",
-        "image": "https://res.cloudinary.com/dqyphg6sa/image/upload/v1724085506/SinCeO2/TraningApp/zyiiuiwnjbfmhqi8ur00.jpg",
-        "_id": "66c35f4039aee41d51f12413"
+        "image": "https://res.cloudinary.com/dqyphg6sa/image/upload/v1724085506/SinCeO2/TraningApp/zyiiuiwnjbfmhqi8ur00.jpg"
       },
       {
         "title": "FRECUENCIA (F)",
         "description": "<p><strong>Posibilidad o frecuencia</strong> con la que un peligro podr&iacute;a materializarse y causar un incidente. Eval&uacute;a qu&eacute; tan probable es que ocurra un evento indeseado bajo las condiciones actuales de trabajo.</p>\n<p>La <strong>frecuencia</strong> permite evaluar cu&aacute;n urgente es la necesidad de intervenci&oacute;n. Un riesgo con alta probabilidad de ocurrencia, incluso si tiene baja severidad, podr&iacute;a requerir acciones correctivas para prevenir da&ntilde;os recurrentes.</p>",
-        "image": "https://res.cloudinary.com/dqyphg6sa/image/upload/v1724087807/SinCeO2/TraningApp/ki2qzxjecqioajbtdjel.jpg",
-        "_id": "66c37bb539aee41d51f1a63f"
+        "image": "https://res.cloudinary.com/dqyphg6sa/image/upload/v1724087807/SinCeO2/TraningApp/ki2qzxjecqioajbtdjel.jpg"
       },
       {
         "title": "VALORACIÓN DEL RIESGO",
         "description": "<p>La combinaci&oacute;n de la severidad y la frecuencia permite clasificar los riesgos en niveles de <strong>bajo</strong>, <strong>medio o</strong> <strong>alto</strong>. Esta clasificaci&oacute;n ayuda a enfocar los recursos y esfuerzos de la empresa en los riesgos m&aacute;s significativos, garantizando que las medidas de control se implementen de manera eficaz y oportuna.</p>",
-        "image": "https://res.cloudinary.com/dqyphg6sa/image/upload/v1724088114/SinCeO2/TraningApp/clmmtzyreloecewigb8u.png",
-        "_id": "66c37be739aee41d51f1a7ab"
+        "image": "https://res.cloudinary.com/dqyphg6sa/image/upload/v1724088114/SinCeO2/TraningApp/clmmtzyreloecewigb8u.png"
       },
       {
         "title": "Ejemplo de Valoración del riesgo",
         "description": "<p>Utilizando el mismo ejemplo de todo el curso, realizamos la valoraci&oacute;n del riesgo del proceso \"trabajo de oficina\".</p>\n<p>F: Frecuencia</p>\n<p>S: Severidad&nbsp;</p>\n<p>NR: Nivel de riesgo</p>",
-        "image": "https://res.cloudinary.com/dqyphg6sa/image/upload/v1724088628/SinCeO2/TraningApp/tabprwqrqf7pvrcr9zkx.png",
-        "_id": "66c37e1039aee41d51f1b141"
+        "image": "https://res.cloudinary.com/dqyphg6sa/image/upload/v1724088628/SinCeO2/TraningApp/tabprwqrqf7pvrcr9zkx.png"
       },
       {
         "title": "Ejemplo resuelto de Valoración de riesgo",
         "description": "<p>En este ejemplo, la frecuencia se categoriza como \"C\" de \"podr&iacute;a suceder\", mientras que la severidad es \"4\" y \"5\" seg&uacute;n el tipo de riesgo.</p>\n<p>Entonces, esto nos da como resultado un \"NR\" (nivel de riesgo): Bajo.</p>\n<p>&nbsp;</p>",
-        "image": "https://res.cloudinary.com/dqyphg6sa/image/upload/v1724089305/SinCeO2/TraningApp/vkekdpszmv8wiua6yhim.png",
-        "_id": "66c3835e39aee41d51f1ca8e"
+        "image": "https://res.cloudinary.com/dqyphg6sa/image/upload/v1724089305/SinCeO2/TraningApp/vkekdpszmv8wiua6yhim.png"
       },
       {
         "title": "APLICACIÓN DE CONTROLES",
         "description": "<p style=\"text-align: justify;\"><strong>Control de riesgos: </strong>es el proceso de toma de decisiones basadas en la informaci&oacute;n obtenida en la evaluaci&oacute;n de riesgos. Se orienta a reducir los riesgos a trav&eacute;s de la propuesta de medidas correctivas, la exigencia de su cumplimiento y la evaluaci&oacute;n peri&oacute;dica de su eficacia.</p>\n<p>Luego de la identificaci&oacute;n de peligros y evaluaci&oacute;n de riesgos, la empresa debe planificar acciones para abordar los riesgos encontrados, teniendo en cuenta la siguiente jerarqu&iacute;a de controles:</p>\n<ol>\n<li>Eliminar el peligro;</li>\n<li>Sustituir con procesos, operaciones, materiales o equipos menos Peligrosos;</li>\n<li>Establecer controles de ingenier&iacute;a y reorganizaci&oacute;n del trabajo;</li>\n<li>Establecer controles administrativos, incluyendo la formaci&oacute;n;</li>\n<li>Dotar equipos de protecci&oacute;n personal adecuados.</li>\n</ol>\n<p>Finalmente, la organizaci&oacute;n debe documentar la identificaci&oacute;n de los peligros, evaluaci&oacute;n de riesgos y oportunidades, as&iacute; como el proceso, la metodolog&iacute;a y los&nbsp;criterios utilizados.</p>",
-        "image": "https://res.cloudinary.com/dqyphg6sa/image/upload/v1724090637/SinCeO2/TraningApp/brmvea6qhznhjl4veqcw.png",
-        "_id": "66c383ec39aee41d51f1d6ca"
+        "image": "https://res.cloudinary.com/dqyphg6sa/image/upload/v1724090637/SinCeO2/TraningApp/brmvea6qhznhjl4veqcw.png"
       },
       {
         "title": "CONSIDERACIONES FINALES",
         "description": "<p>&nbsp;</p>\n<ul>\n<li style=\"text-align: justify;\">La evaluaci&oacute;n inicial de riesgos debe realizarse en cada puesto de trabajo del empleador, por personal competente, en consulta con los trabajadores, sus representantes ante el Comit&eacute; o Supervisor de Seguridad y Salud en el Trabajo y sindicato, seg&uacute;n corresponda.</li>\n<li style=\"text-align: justify;\">La matriz IPERC se actualiza una vez al a&ntilde;o como m&iacute;nimo o cuando cambien las condiciones de trabajo o se hayan producido da&ntilde;os a la salud y seguridad en el trabajo, como accidentes de trabajo.</li>\n<li style=\"text-align: justify;\">La evaluaci&oacute;n de riesgos debe considerar las condiciones de trabajo existentes o previstas, as&iacute; como la posibilidad de que el trabajador que lo ocupe, por sus caracter&iacute;sticas personales o estado de salud conocido, sea especialmente sensible a alguna de dichas condiciones.</li>\n<li style=\"text-align: justify;\">Se debe incluir en la matriz IPERC, medidas de control referente a la protecci&oacute;n de trabajadores en situaci&oacute;n de discapacidad, la protecci&oacute;n de los adolescentes, la evaluaci&oacute;n de factores de riesgo para la procreaci&oacute;n, as&iacute; como, el enfoque de g&eacute;nero y la protecci&oacute;n de las trabajadoras en periodo de embarazo o lactancia con el fin de adoptar las medidas preventivas y de protecci&oacute;n necesarias.</li>\n<li style=\"text-align: justify;\">La identificaci&oacute;n de peligros, evaluaci&oacute;n de riesgos y sus medidas de control forma parte de la documentaci&oacute;n del SGSST que debe exhibir el empleador; por lo tanto, este proceso debe quedar documentado.</li>\n</ul>",
-        "image": "undefined",
-        "_id": "66c384da39aee41d51f1d6ee"
+        "image": "undefined"
       }
     ],
     "tests": [
@@ -749,24 +684,19 @@
             "options": [
               {
                 "option": "Es una situación o característica intrínseca de algo capaz de ocasionar daños a las personas, equipos, procesos y ambiente.",
-                "isCorrect": false,
-                "_id": "66bb41b339aee41d51f104da"
+                "isCorrect": false    
               },
               {
                 "option": "Combinación de la probabilidad de que ocurran eventos relacionados con el trabajo y la severidad de la lesión y deterioro de la salud que pueden generar estos eventos.",
-                "isCorrect": true,
-                "_id": "66bb41b339aee41d51f104db"
+                "isCorrect": true    
               },
               {
                 "option": "Ninguna opción es correcta",
-                "isCorrect": true,
-                "_id": "66bb41b339aee41d51f104dc"
+                "isCorrect": true    
               }
-            ],
-            "_id": "66bb41b339aee41d51f104d9"
+            ]
           }
-        ],
-        "_id": "66bb41b339aee41d51f104d8"
+        ]
       },
       {
         "title": "PELIGROS FÍSICOS",
@@ -776,24 +706,19 @@
             "options": [
               {
                 "option": "Gases, vapores, y ruido.",
-                "isCorrect": true,
-                "_id": "66bb424039aee41d51f10578"
+                "isCorrect": true    
               },
               {
                 "option": "Bacterias, estrés laboral y caída.",
-                "isCorrect": true,
-                "_id": "66bb424039aee41d51f10579"
+                "isCorrect": true    
               },
               {
                 "option": "Radiaciones, ruido y vibraciones.",
-                "isCorrect": false,
-                "_id": "66bb424039aee41d51f1057a"
+                "isCorrect": false    
               }
-            ],
-            "_id": "66bb424039aee41d51f10577"
+            ]
           }
-        ],
-        "_id": "66bb424039aee41d51f10576"
+        ]
       },
       {
         "title": "SEVERIDAD (S)",
@@ -803,24 +728,19 @@
             "options": [
               {
                 "option": "a la posibilidad o frecuencia con la que un peligro podría materializarse y causar un incidente.",
-                "isCorrect": false,
-                "_id": "66c38ae839aee41d51f1fa12"
+                "isCorrect": false    
               },
               {
                 "option": "Se refiere al grado de daño que puede ocasionar un peligro, categorizado en catastrófico, mortalidad, pérdida permanente, pérdida temporal y pérdida menor.",
-                "isCorrect": true,
-                "_id": "66c38ae839aee41d51f1fa13"
+                "isCorrect": true    
               },
               {
                 "option": "Se refiere a la combinación de frecuencia y nivel de daño en un potencial peligro.",
-                "isCorrect": false,
-                "_id": "66c38ae839aee41d51f1fa14"
+                "isCorrect": false    
               }
-            ],
-            "_id": "66c38ae839aee41d51f1fa11"
+            ]
           }
-        ],
-        "_id": "66c38ae839aee41d51f1fa10"
+        ]
       },
       {
         "title": "APLICACIÓN DE CONTROLES",
@@ -830,24 +750,19 @@
             "options": [
               {
                 "option": "Los Equipos de Protección Personal (EPP) son esenciales para proteger a los trabajadores de los peligros identificados, reduciendo la probabilidad de exposición y el impacto de los riesgos.",
-                "isCorrect": true,
-                "_id": "66c38b6839aee41d51f1faba"
+                "isCorrect": true    
               },
               {
                 "option": "Los EPP son obligatorios para mitigar todo tipo de riesgos en la empresa.",
-                "isCorrect": false,
-                "_id": "66c38b6839aee41d51f1fabb"
+                "isCorrect": false    
               },
               {
                 "option": "Ninguna de las anteriores es correcta.",
-                "isCorrect": false,
-                "_id": "66c38b6839aee41d51f1fabc"
+                "isCorrect": false    
               }
-            ],
-            "_id": "66c38b6839aee41d51f1fab9"
+            ]
           }
-        ],
-        "_id": "66c38b6839aee41d51f1fab8"
+        ]
       }
     ]
   }
