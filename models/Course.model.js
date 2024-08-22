@@ -105,8 +105,18 @@ const courseSchema = new mongoose.Schema({
 
 courseSchema.pre('save', function(next) {
     this.courseLength = this.content.length + this.tests.length + 1;
+
+    // Validar y actualizar el campo image en cada objeto dentro del array content
+    this.content = this.content.map(item => {
+        if (!item.image || item.image.trim() === "") {
+            item.image = "undefined";
+        }
+        return item;
+    });
+
     next();
 });
+
 
 const Course = mongoose.model('Course', courseSchema);
 
