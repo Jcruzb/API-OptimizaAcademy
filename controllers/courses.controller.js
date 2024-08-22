@@ -212,3 +212,60 @@ module.exports.updateCourseStudent = (req, res, next) => {
             next(createError(StatusCodes.INTERNAL_SERVER_ERROR, "Internal server error"));
         });
 };
+
+module.exports.getTestsByCourse = (req, res, next) => {
+    const testId = req.params.id; // Aquí se obtiene el testId desde req.params
+
+    console.log(testId);
+    
+    Course.findOne({ "tests._id": testId }) // Busca el test dentro de los cursos
+        .then((course) => {
+            if (!course) {
+                return next(createError(StatusCodes.NOT_FOUND, "Course not found"));
+            }
+            const test = course.tests.id(testId); // Usa .id() de Mongoose para encontrar el test por su ID
+            if (!test) {
+                return next(createError(StatusCodes.NOT_FOUND, "Test not found"));
+            }
+            res.status(StatusCodes.OK).json(test);
+        })
+        .catch((err) => {
+            console.log(err);
+            next(createError(StatusCodes.INTERNAL_SERVER_ERROR, "Internal server error"));
+        });
+}
+
+
+module.exports.editTest = (req, res, next) => {
+    const courseId = req.params.id;
+    const testId = req.body._id;
+    const updatedTest = req.body;
+  
+    if (!testId || !updatedTest) {
+        return next(createError(StatusCodes.BAD_REQUEST, "Test ID y datos del test son requeridos"));
+    }
+
+    Course.findById(courseId)
+        .then((course) => {
+            if (!course) {
+                return next(createError(StatusCodes.NOT_FOUND, "Course not found"));
+            }
+
+            const testIndex = course.tests.findIndex(test => test._id.toString() === testId);
+            if (testIndex === -1) {
+                return next(createError(StatusCodes.NOT_FOUND, "Test not found"));
+            }
+
+            
+            course.tests[testIndex] = { ...course.tests[testIndex]._doc, ...updatedTest };
+
+            return course.save();
+        })
+        .then((updatedCourse) => {
+            res.status(StatusCodes.OK).json(updatedCourse);
+        })
+        .catch((err) => {
+            console.error(err);
+            next(createError(StatusCodes.INTERNAL_SERVER_ERROR, "Internal server error"));
+        });
+};

@@ -16,5 +16,8 @@ router.put('/:id/mainImage', authMiddleware.isAuthenticated, upload.single('main
 //actualizando la lista de estudiantes
 router.put('/:id/updateStudent', authMiddleware.isAuthenticated, coursesController.updateCourseStudent);
 router.delete('/:id', authMiddleware.isAuthenticated, coursesController.delete);
+router.get('/test/:id', coursesController.getTestsByCourse);
+router.put('/editTest/:id', authMiddleware.isAuthenticated, coursesController.editTest);
+
 
 module.exports = router;
