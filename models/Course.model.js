@@ -49,21 +49,25 @@ const courseSchema = new mongoose.Schema({
     tests: [{
         title: {
             type: String,
-            trim: true
+            trim: true,
+            required: [true, 'Debe ingresar un título']
         },
         questions: [{
             question: {
                 type: String,
-                trim: true
+                trim: true,
+                required: [true, 'Debe ingresar una pregunta']
             },
             options: [{
                 option: {
                     type: String,
-                    trim: true
+                    trim: true,
+                    required: [true, 'Debe ingresar al menos una opción']
                 },
                 isCorrect: {
                     type: Boolean,
-                    default: false
+                    default: false,
+                    required: [true, 'Debe ingresar una respuesta correcta']
                 }
             }]
         }]
@@ -76,16 +80,19 @@ const courseSchema = new mongoose.Schema({
         questions: [{
             question: {
                 type: String,
-                trim: true
+                trim: true,
+                reqquired: [true, 'Debe ingresar una pregunta']
             },
             options: [{
                 option: {
                     type: String,
-                    trim: true
+                    trim: true,
+                    required: [true, 'Debe ingresar al menos una opción']
                 },
                 isCorrect: {
                     type: Boolean,
-                    default: false
+                    default: false,
+                    required: [true, 'Debe ingresar una respuesta correcta']
                 }
             }]
         }]
