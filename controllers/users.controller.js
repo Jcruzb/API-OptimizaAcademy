@@ -296,6 +296,7 @@ module.exports.updateExamResults = (req, res) => {
             }
 
             user.courses[courseIndex].examResults = examResults;
+            user.courses[courseIndex].status = 'completed';
             return user.save();
         })
         .then(updatedUser => {

@@ -59,6 +59,9 @@ app.use("/test", testsRouter);
 const companysRouter = require("./routes/companies.routes");
 app.use("/companies", companysRouter);
 
+const certificateRouter = require("./routes/certificate.routes");
+app.use("/certificates", certificateRouter);
+
 //route not found
 app.use((req, res, next) => {
     next(createError(StatusCodes.NOT_FOUND, "Route not found"));
